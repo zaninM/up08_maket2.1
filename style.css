@@ -1,0 +1,442 @@
+@font-face {
+    font-family: 'SovMod';
+    src: url(fonts/SovMod/SovMod.ttf);
+  }
+
+.navik {
+    width: 947px;
+    max-height: 54px;
+    margin-left: 200px;
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p {
+    color: #2D2D2D;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+}
+
+.one, .two {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header {
+    display: flex;
+    width: 1920px;
+    height: 799px;
+    margin: 0 auto;
+    background-image: url(img/1.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    font-family: SovMod;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+}
+
+header h2 {
+    color:#2D2D2D;
+    font-family: SovMod;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+}
+header .center {
+    display: block;
+    max-width: 490px;
+    text-align: center;
+}
+.button1 {
+    width: 260px;
+    height: 54px;
+    background-color: white;
+    border: 2px solid #102F28;
+    color: #102F28;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.button5 {
+    width: 260px;
+    height: 54px;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.button6 {
+    width: 260px;
+    height: 54px;
+    background-color: #C73D42;
+    color: #fff;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.line {
+    width: 1500px;
+    height: 1px;
+    background: #2D2D2D;
+}
+
+section{
+    width: 1500px;
+    margin: 0 auto;
+
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    color: #2D2D2D;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 105%;
+}
+
+.small {
+    display: flex;
+    justify-content: space-between;
+    color: #2D2D2D;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105%;
+}
+
+section h1 {
+    text-align: center;
+    color: #2D2D2D;
+    font-family: SovMod;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105%;
+    text-transform: uppercase;
+}
+
+.sec1 {
+    background-image: url(img/sec1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 600px;
+}
+
+.kart h2{
+    color: #FFF;
+    font-family: SovMod;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105%;
+    margin-top: 260px;
+}
+
+.sec2 {
+    background-image: url(img/sec2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 600px;
+}
+
+
+.sec3 {
+    background-image: url(img/sec3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 600px;
+}
+
+.kart {
+    display: flex;
+    gap: 60px;
+    text-align: center;
+}
+
+.zagolovok {
+    color: #FFF;
+    font-family: SovMod;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105%;
+}
+
+.podzag {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 105%;
+}
+
+.sec5 {
+    width: 1920px;
+    height: 227px;
+    background-image: url(img/zakaz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    gap: 60px;
+}
+.knopki {
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+}
+.button4 {
+    width: 460px;
+    height: 60px;
+    background-color: #102f28;
+    color: #FFF;
+}
+
+input[type="text"],
+input[type="tel"]{
+    width: 460px;
+    height: 60px;
+    display: inline;
+}
+
+.company {
+    gap: 50px;
+}
+
+.companys {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kredit p {
+    color: #2D2D2D;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 105%;
+    max-width: 530px;
+}
+.kredit p1 {
+    color: #2D2D2D;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+}
+
+.kredit h1 {
+    color: #2D2D2D;
+    font-family: SovMod;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105%;
+    text-align: left;
+}
+.company1 {
+    border: 1px solid rgba(45, 45, 45, 0.50);
+    background: #FFF;
+    width: 251px;
+    height: 250px;
+    background-image: url(img/company1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.company2 {
+    border: 1px solid rgba(45, 45, 45, 0.50);
+    background: #F4F4F4;
+    width: 251px;
+    height: 250px;
+    background-image: url(img/company2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.company3 {
+    border: 1px solid rgba(45, 45, 45, 0.50);
+    background: #FFF;
+    width: 251px;
+    height: 250px;
+    background-image: url(img/company3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.company4 {
+    border: 1px solid rgba(45, 45, 45, 0.50);
+    background: #F4F4F4;
+    width: 251px;
+    height: 250px;
+    background-image: url(img/company4.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.company5 {
+    border: 1px solid rgba(45, 45, 45, 0.50);
+    background: #FFF;
+    width: 251px;
+    height: 250px;
+    background-image: url(img/company5.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.company6 {
+    border: 1px solid rgba(45, 45, 45, 0.50);
+    background: #F4F4F4;
+    width: 251px;
+    height: 250px;
+    background-image: url(img/company6.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.zagolovok h3 {
+    padding-top: 10px;
+}
+.vvesti2 {
+    margin-bottom: 25px;
+    display: inline;
+}
+.vvesti1 {
+    max-width: 600px;
+}
+.kredit {
+   display: flex;
+   padding-top: 100px;
+}
+.kredit1,
+.kredit2 {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: grid;
+    grid-template-columns: 310px 600px;
+
+}
+.kredit3 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+.mapa {
+    display: flex;
+    padding-top: 100px;
+    width: 1500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 110px;
+}
+.leviy {
+    display: block;
+    max-width: 500px;
+}
+.leviy h2 {
+    color: #2D2D2D;
+    font-size: 40px;
+    font-family: SovMod;
+    font-weight: 400;
+    line-height: 42px;
+}
+.leviy p {
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 16.80px;
+}
+.leviy h3 {
+    color: #2D2D2D;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 26.25px;
+}
+.but228 {
+    width: 260px;
+    height: 54px;
+    background-color: #2D2D2D;
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+footer {
+    width: 1920px;
+    background-color: #2D2D2D;
+    height: 219px;
+}
+footer p {
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 18.40px;
+}
+.podval {
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.nom {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo2 {
+    background-color: white;
+}
+.prava {
+    color: white;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 16.10px;
+    opacity: 0.50;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+.but1337 {
+    width: 260px;
+    height: 54px;
+    background-color: #2D2D2D;
+    color: white;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
